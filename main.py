@@ -99,7 +99,7 @@ def task3():
     names = ["Анна", "Борис", "Вера", "Глеб", "Дина", "Егор", "Жанна", "Илья"]
     groups = ["ИС-101", "ИС-102", "МТ-201"]
     students = []
-    for _ in range(5000):
+    for _ in range(50_000):
         students.append(
             {
                 "name": random.choice(names),
